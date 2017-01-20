@@ -26,14 +26,14 @@ body {
 #menu {
 	background-color: #808080;
 	border: 1px solid #C0C0C0;
-	height: 50px;
+	/*height: 50px;*/
 	border-radius: 10px;
-	text-align: center; /*dodane*/
+	text-align: center;
 }
 #menu ul {
 	list-style-type: none;
 	margin: auto;
-	display: inline-block; /*dodane*/
+	display: inline-block;
 }
 #menu ul li {
 	float: left;
