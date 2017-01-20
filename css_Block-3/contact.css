@@ -1,4 +1,4 @@
-@charset="utf-8" 
+@charset="utf-8"; 
 body, h1, h2, h3, h4, h5, h6, p, div, ul, li { 
 margin: 0; 
 padding: 0;
@@ -16,15 +16,13 @@ body {
 	padding-left: 20px;
 }
 #wrapper {
-	background: url("himalaje.jpg") no-repeat top center;
+	background: url("css_Block-3/Block-3/img_Block-3/himalaje.jpg") no-repeat top center;
 	background-size: cover;
 	background-color: #000000;
 	width: 700px;
 	margin: 20px auto -20px auto;
 	height: 200px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 }
 #menu {
 	width: 700px;
@@ -32,8 +30,6 @@ body {
 	border: 1px solid #C0C0C0;
 	height: 50px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	margin-top: -50px;
 }
 #list {
@@ -61,8 +57,6 @@ body {
 	padding-top: 5px;
 	margin: -7px 7px 0px 7px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	background-color: #000000;
 	background: -webkit-linear-gradient(#000000 , #808080);
 	background: -moz-linear-gradient(#000000 , #808080);
@@ -85,8 +79,6 @@ body {
 	margin: 71px auto 0px auto;
 	padding: 30px 0px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	border: 1px solid #C0C0C0;
 }
 #about {
@@ -95,8 +87,6 @@ body {
 	margin: 0 auto;
 	border: 1px solid #000000;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	background: -webkit-gradient (linear, left top, left bottom, from(#000000), to(#808080), color-stop(0.5, #25241c));
 	background: -moz-linear-gradient(#808080 , #25241c , #000000);
 	box-shadow: 1px 1px 4px #000000 inset;
@@ -104,13 +94,10 @@ body {
 	-webkit-box-shadow: 1px 1px 4px #000000 inset;
 }
 #about img {
-	float: left;
 	border: 1px solid #000000;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	background: #696969;
-	margin: 5px 10px 0px 5px;
+	margin: 5 px auto;
 }
 #about h2 {
 	color: #ffffff;
@@ -127,8 +114,6 @@ body {
 	height: 15px;
 	width: 700px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	margin: auto;
 }
 	
