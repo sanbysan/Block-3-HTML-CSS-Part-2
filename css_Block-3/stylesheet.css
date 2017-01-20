@@ -28,12 +28,12 @@ body {
 	border: 1px solid #C0C0C0;
 	height: 50px;
 	border-radius: 10px;
-	/*margin: -5px 0px 20px 140px;*/
-	margin: auto;
+	text-align: center; /*dodane*/
 }
 #menu ul {
 	list-style-type: none;
 	margin: auto;
+	display: inline-block; /*dodane*/
 }
 #menu ul li {
 	float: left;
