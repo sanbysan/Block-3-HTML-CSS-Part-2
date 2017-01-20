@@ -28,22 +28,19 @@ body {
 	border: 1px solid #C0C0C0;
 	height: 50px;
 	border-radius: 10px;
-}
-#list {
-	height: 50px;
 	width: 550px;
 	margin: -5px 0px 20px 140px;
 }
-#list ul {
+#menu ul {
 	list-style-type: none;
 	margin: auto;
 }
-#list ul li {
+#menu ul li {
 	float: left;
 	padding: 15px;
 	margin: 0px auto;
 }
-#list ul li a {
+#menu ul li a {
 	display: block;
 	height: 25px;
 	width: 75px;
@@ -59,11 +56,11 @@ body {
 	background: linear-gradient(to bottom,  #000000 0%,#808080 100%);
 	padding-top: 4px;
 }
-#list ul li a:hover {
+#menu ul li a:hover {
 	background-color: #808080;
 	background: linear-gradient(to bottom,  #808080 0%,#000000 100%);
 }
-#list ul li a.highlight, #list ul li a.highlight:hover {
+#menu ul li a.highlight, #menu ul li a.highlight:hover {
 	background-color: #808080;
 	background: linear-gradient(to bottom,  #808080 0%,#000000 100%);
 	color: #ff69b4;
